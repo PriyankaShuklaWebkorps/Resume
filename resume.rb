@@ -98,13 +98,13 @@ File.open("input1.txt" , "w+") do |f|
     next
   end
   end
-  f.write ("\n")
-  while 1
-  puts "Enter the Address :"
-  i = gets.chomp
-  puts("\n")
-  if i.match(/\D/)
-  f.write("Afddress : ")
+    f.write ("\n")
+      while 1
+      puts "Enter the Address :"
+ i = gets.chomp
+ puts("\n")
+if i.match(/\D/)
+   f.write("Afddress : ")
   f.write(i)
   break
   else
@@ -113,14 +113,4 @@ File.open("input1.txt" , "w+") do |f|
   end
   end
   f.write ("\n")
-  end
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  end  
